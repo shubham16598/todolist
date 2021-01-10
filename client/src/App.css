@@ -1,0 +1,33 @@
+.remove-btn {
+    margin-right: 0.5rem;
+    /* border-radius: 40%; */
+    cursor: pointer;
+}
+
+.fade-enter {
+    opacity: 0.01;
+}
+
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 1000ms ease-in;
+}
+
+.header {
+    color: red;
+}
+
+.update {
+    width: 50%;
+    background-color: yellow;
+    color: yellow;
+}
